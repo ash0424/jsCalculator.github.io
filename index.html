@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Digi-X Internship Assessment</title>
+ <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+ <section class="calculator">
+  <form>
+   <input type="text" name="" id="total" class="screen">
+  </form>
+  <div class="buttons">
+   <!-- yellow --> 
+   <!-- onclick executes the JS function when the element is clicked -->
+   <!-- dis("x") will call function dis to display value -->
+   <button type="button" class="btn btn-yellow" onclick="dis('*')">*</button>
+   <button type="button" class="btn btn-yellow" onclick="dis('/')">/</button>
+   <button type="button" class="btn btn-yellow" onclick="dis('-')">-</button>
+   <button type="button" class="btn btn-yellow" onclick="dis('+')">+</button>
+   <!-- grey buttons -->
+   <button type="button" class="btn btn-grey" onclick="dis('.')">.</button>
+   <button type="button" class="btn btn-grey" onclick="dis('9')">9</button>
+   <button type="button" class="btn btn-grey" onclick="dis('8')">8</button>
+   <button type="button" class="btn btn-grey" onclick="dis('7')">7</button>
+   <button type="button" class="btn btn-grey" onclick="dis('6')">6</button>
+   <button type="button" class="btn btn-grey" onclick="dis('5')">5</button>
+   <button type="button" class="btn btn-grey" onclick="dis('4')">4</button>
+   <button type="button" class="btn btn-grey" onclick="dis('3')">3</button>
+   <button type="button" class="btn btn-grey" onclick="dis('2')">2</button>
+   <button type="button" class="btn btn-grey" onclick="dis('1')">1</button>
+   <button type="button" class="btn btn-grey" onclick="dis('0')">0</button>
+   <!-- equal() function calls function equal to evaluate value -->
+   <button type="button" class="btn-equal btn-grey" onclick="equal()">=</button>
+   <!-- clearScreen() function will call clearScreen to clear all values -->
+   <button type="button" class="btn-clear btn-grey" onclick="clearScreen()">C</button>
+   <!-- deleteNum() function will call deleteNum to delete numbers one by one (additional usability function) -->
+   <button type="button" class="btn-del btn-grey" onclick="deleteNum()">DEL</button>
+
+
+  </div>
+
+
+
+
+
+ </section>
+
+
+
+
+
+ <script src="./app.js"></script>
+</body>
+
+</html>
